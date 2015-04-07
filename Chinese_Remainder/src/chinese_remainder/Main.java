@@ -24,6 +24,11 @@ public class Main
         int n = kb.nextInt(); 
         
         // Confirming with the user. 
-        System.out.print("Your value of input, n = " + n); 
+        System.out.println("Your value of input, n = " + n); 
+        
+        for (Integer integer : PrimeFactors.primeFactors(n))
+        {
+            System.out.println(integer); 
+        }
     }   
 }
