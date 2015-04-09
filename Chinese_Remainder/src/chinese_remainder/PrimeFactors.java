@@ -36,6 +36,7 @@ public class PrimeFactors
             factors.add(n); 
         }
         
+        // Returning the list
         return factors; 
     }
 }

@@ -23,12 +23,18 @@ public class Main
         // Creating the integer variable from the console input
         int n = kb.nextInt(); 
         
-        // Confirming with the user. 
-        System.out.println("Your value of input, n = " + n); 
-        
-        for (Integer integer : PrimeFactors.primeFactors(n))
+        // Adding in an input check
+        if (n < 100)
         {
-            System.out.println(integer); 
+            // Confirming with the user. 
+            System.out.println("Your value of input, n = " + n); 
+        
+            for (Integer integer : PrimeFactors.primeFactors(n))
+            {
+                System.out.println(integer);
+                
+                // Convert the list to array here 
+            }
         }
     }   
 }
