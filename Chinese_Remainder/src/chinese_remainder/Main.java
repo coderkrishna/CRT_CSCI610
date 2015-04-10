@@ -4,8 +4,10 @@ import java.util.*; // Adding in the import statement
 
 /**
  * @author Pranav Krishnamurthy
- * @since 6th April 2015
- * This is the main (driver) class which I am using to call the Prime Factors class as well.
+ * 
+ * @since 10th April 2015
+ * Going to now be optimizing this and will then be going to have either a method
+ * or a class to filter out redundant elements in the array. 
  */
 
 public class Main 
@@ -31,9 +33,8 @@ public class Main
         
             for (Integer integer : PrimeFactors.primeFactors(n))
             {
-                System.out.println(integer);
-                
-                // Convert the list to array here 
+                // Prints out the prime factors (even with redundancies)
+                System.out.println(integer);                
             }
         }
     }   
