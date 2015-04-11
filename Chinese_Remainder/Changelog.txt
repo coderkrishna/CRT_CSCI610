@@ -1,2 +1,5 @@
 6th April 2015
 This is the main (driver) class which I am using to call the Prime Factors class as well.
+
+10th April 2015
+Trying various methods in order to have the mappings generated. 

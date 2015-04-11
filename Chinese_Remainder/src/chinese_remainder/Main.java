@@ -11,7 +11,9 @@ import java.util.*; // Adding in the import statement
  */
 
 public class Main 
-{    /**
+{ 
+    static List<Integer> factors; 
+    /**
      * @param args the command line arguments - Which are usually 
      * none starting at the execution time. 
      */
@@ -26,8 +28,7 @@ public class Main
         // Creating the integer variable from the console input
         int n = kb.nextInt(); 
         
-        // Declare, initialize integer array of n
-        int[] prime_factors = new int [n]; 
+        // int factors_size = factors.size(); 
         
         // Adding in an input check
         if (n < 100)
@@ -37,8 +38,7 @@ public class Main
         
             for (Integer integer : PrimeFactors.primeFactors(n))
             {
-                // Prints out the prime factors (even with redundancies)
-                System.out.println(integer);
+                System.out.println(integer); 
             }
         }
     }   

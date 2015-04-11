@@ -11,13 +11,15 @@ import java.util.List;
  */
 public class PrimeFactors 
 {
+    public static List<Integer> factors; 
+    
     public static List<Integer> primeFactors(int number)
     {
         // Declaring a local variable
         int n = number;
         
         // Creating a List of Integers here, called factors
-        List<Integer> factors = new ArrayList<Integer>(); 
+        factors = new ArrayList<Integer>(); 
         
         // Starting from 2 because we know for a fact that 2 is already a prime number
         for (int i = 2; i <= n; i++)
