@@ -49,6 +49,7 @@ public class Main
         // Going to print out the array elements. 
         for (int i = 0; i < factors.length; i++)
         {
+            // Printing out the array just as a reminder
             System.out.println(factors[i]); 
         }
     }
