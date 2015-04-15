@@ -1,5 +1,9 @@
 6th April 2015
-This is the main (driver) class which I am using to call the Prime Factors class as well.
+*This is the main (driver) class which I am using to call the Prime Factors class as well.
 
 10th April 2015
-Trying various methods in order to have the mappings generated. 
+*Trying various methods in order to have the mappings generated. 
+
+14th April 2015
+*Making attempts to have some mappings generated. 
+*Will also be having such that the list is converted into an array. 
