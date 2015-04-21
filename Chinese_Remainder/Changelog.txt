@@ -7,3 +7,7 @@
 14th April 2015
 *Making attempts to have some mappings generated. 
 *Will also be having such that the list is converted into an array. 
+
+20th April 2015
+* Will write either a class or method that can generate the mappings
+for a given number N.  

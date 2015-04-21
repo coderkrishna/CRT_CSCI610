@@ -18,15 +18,9 @@ public class Main
      * none starting at the execution time. 
      */
     public static void main(String[] args) 
-    {
-        // Prompting for the user to enter in an integer. 
-        System.out.println("Enter an integer, n."); 
-        
-        // Initialize the scanner
-        Scanner kb = new Scanner(System.in); 
-        
+    { 
         // Creating the integer variable from the console input
-        int n = kb.nextInt(); 
+        int n = 21; 
         
         // int factors_size = factors.size(); 
         
@@ -46,23 +40,31 @@ public class Main
         // Now making the method call to the be able to convert the List into an integer array. 
         int[]factors = convertIntegers(factors_MainClass);
         
-        // Going to print out the array elements. 
-        for (int i = 0; i < factors.length; i++)
-        {
-            // Printing out the array just as a reminder
-            System.out.println(factors[i]); 
-        }
+        // Finally making the call to generate the mappings. 
     }
     
+    /**
+     * This method will now be tackling the conversion of a List in Java to an 
+     * integer array. 
+     * @param factors_MainClass This parameter is a List of type <i>Integer</i> which is a data structure
+     * that is returned by the PrimeFactors.java class file. 
+     * @return An integer array, int[] ret which helps in confirming that we have returned an array 
+     * of integers. 
+     */
     public static int[] convertIntegers(List<Integer> factors_MainClass)
     {
+        // Creating the integer array. 
         int[] ret = new int[factors_MainClass.size()]; 
         
+        // Looping through the integer array
         for (int i = 0; i < ret.length; i++)
         {
+            // Every index of the array will be populated by the value 
+            // at that same index in the list. 
             ret[i] = factors_MainClass.get(i).intValue(); 
         }
         
+        // return statement to have the array for us to further manipulate and generate the mappings.
         return ret; 
     }
 }
