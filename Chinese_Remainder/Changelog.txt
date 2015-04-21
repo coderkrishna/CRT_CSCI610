@@ -6,7 +6,12 @@
 
 14th April 2015
 *Making attempts to have some mappings generated. 
-*Will also be having such that the list is converted into an array. 
+*Will also be having such that the list is converted into an array.
+
+15th April 2015
+* Having a method that will take the List of Integers and then be able to convert 
+that specific data structure into an array of integers which will make life a lot
+easier to deal with.  
 
 20th April 2015
 * Will write either a class or method that can generate the mappings
