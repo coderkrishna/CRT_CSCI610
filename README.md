@@ -1,9 +1,7 @@
 CRT Implementation: CSCI610
 =============================
 
-This README file contains the following information:
-1. Statement of the Theorem
-2. Approach Taken
+This README file contains the following information: (1) Statemement of the Theorem and (2) Approach Taken
 
 
 Statement of the Chinese Remainder Theorem
