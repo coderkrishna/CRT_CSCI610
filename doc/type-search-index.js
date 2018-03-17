@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"chinese_remainder","l":"Main"}]
